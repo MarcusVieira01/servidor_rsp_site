@@ -15,10 +15,11 @@
 </head>
 
 <body>
+    <!--NAVBAR-->
     <nav class="navbar navbar-dark navbar-expand">
         <div class="container-fluid ">
-            <a class="navbar-brand fs-2 fw-bolder mt-2">
-                <img src="./img/2MV - Logo Grande.png" class=" mb-2 me-4" alt="logo2mv" width="64" height="64">Servidor RSP
+            <a class="navbar-brand fs-3 fw-bolder m-0">
+                <img src="./img/2MV - Logo Grande.png" class="me-3" alt="logo2mv" width="50" height="50">Servidor RSP
             </a>
 
             <div class="expand navbar-expand" id="navbarNav">
@@ -40,19 +41,49 @@
         </div>
     </nav>
 
-    <main class="d-flex flex-column align-items-center text-white w-100">
-        <div class="text-center w-50 mb-2 fs-1 fw-bold lh-1 mt-5">
-            <p>Você pode possuir seu próprio servidor de arquivos</p>
+    <!--PRIMEIRA_VISTA-->
+    <main class="text-white p-4 bg-gradient">
+        <div class="container px-4 text-center w-50 fw-bold">
+            <h1>Você pode ter seu próprio servidor de arquivos</h1>
         </div>
 
-        <div class="text-center w-25 mb-2">
-            <p>Um servidor que esteja dentro de sua casa, onde apenas você controle o conteúdo, com acesso único ou com usuários que você cadastrar, com seu tamanho físico menor que um codificador de TV a cabo e consumo de 60W.h.</p>
+        <div class="container text-center w-50 p-4">
+            <p>Um servidor que esteja onde você saiba, que apenas você controla o conteúdo, 
+                com acesso único ou com usuários que você cadastrar, de tamanho físico menor 
+                que um codificador de TV a cabo e consumo menor que 60W.h.</p>
+        </div>
+
+        <hr>
+
+        <!--CONTEÚDO-->
+        <section class="container d-flex justify-content-center p-5" id="conteudo">
+            <div class="card text-center col-4 mx-3 bg-gradient">
+                <div class="card-header">
+                    Hardware
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Simples e robusto</h5>
+                    <p></p>
+                </div>
+                
+                <div class="card-footer">
+                    <a href="./hardware.html" class="btn btn-primary btn-outline-light fw-bolder" id="botao">Ver hardware</a>
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
 
     </main>
 
-    <footer class="d-flex flex-row justify-content-center text-center text-white-50 mt-5">
-        <p class="mx-2">Página desenvolvida por 2MV com BootStrap e VSCode.</p>
-        <a href="https://github.com/MarcusVieira01"><img src="./img/git_logo.png" alt="GitHub Logo" height="32" width="32"></a>
+    <!--RODAPÉ-->
+    <footer class="text-center text-white">
+        <div class="container-fluid d-flex justify-content-center px-4">
+            <p class="mx-2 text-center text-white">Página desenvolvida por <b>2MV</b> com BootStrap e VSCode.</p>
+            <a href="https://github.com/MarcusVieira01"><img class="container-fluid d-flex justify-content-center" src="./img/git_logo.png" alt="gitHub_logo" height="32" width="32"></a>
+        </div>
     </footer>
     
 </body>

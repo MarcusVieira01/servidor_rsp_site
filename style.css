@@ -1,3 +1,19 @@
-body{
-    background-color: #0f3d58;
+.navbar{
+    background-color: #001f37;
+}
+
+main{
+    background-color: #001f37;
+}
+
+.card{
+    background-color: #072e47;
+}
+
+#botao{
+    background-color: #072e47;
+}
+
+footer{
+    background-color: #001f37;
 }
