@@ -9,6 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+    <!--Icons install-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
     <link rel="stylesheet" href="./style.css">
 
     <title>Servidor RSP</title>
@@ -53,22 +57,47 @@
                 que um codificador de TV a cabo e consumo menor que 60W.h.</p>
         </div>
 
-        <hr>
-
-        <!--CONTEÚDO-->
-        <section class="container d-flex justify-content-center p-5" id="conteudo">
-            <div class="card text-center col-4 mx-3 bg-gradient">
-                <div class="card-header">
-                    Hardware
+        <!--CARDS-->
+        <section class="d-flex justify-content-center p-2 gap-2" id="conteudo">
+            <div class="card col-4 bg-gradient w-50 rounded-5">
+                <div class="card-header text-center fw-bolder fs-5">
+                    Hardware simples e robusto
                 </div>
 
                 <div class="card-body">
-                    <h5 class="card-title">Simples e robusto</h5>
-                    <p></p>
+                    <ul class="list-unstyled text-left">
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Usa Raspberry Pi 3B Quadcore 1GB RAM</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Armazenamento de até 4TB via HDD/SSD (SupTronix X820</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Placa de potência P4/USB-C dedicada (SupTronix X735)</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Tela de 0,96in OLED 128x64px para monitoramento</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Case de PLA em impressão 3D FDM, biodegradável </li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Ventilação própria com controle PWM com exaustão</li>
+                    </ul>
                 </div>
                 
-                <div class="card-footer">
+                <div class="card-footer d-flex justify-content-center">
                     <a href="./hardware.html" class="btn btn-primary btn-outline-light fw-bolder" id="botao">Ver hardware</a>
+                </div>
+            </div>
+
+            <div class="card col-4 bg-gradient w-50 rounded-5">
+                <div class="card-header text-center fw-bolder fs-5">
+                    Software escalável e privado
+                </div>
+
+                <div class="card-body">
+                    <ul class="list-unstyled text-left">
+                        <li><i class="bi bi-ticket-detailed px-1"></i>SO Linux Raspbian baseado em Debian, server ou desktop</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Privacidade total, acessos controlados por você</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Acesso via VPN de sua propriedade, sem servidores externos</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Compartilhamento via SMB, simples e robusto</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Acesso via WI-FI 2.4GHz ou Ethernet/100</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Crie os drivers virtuais precisar, com acessos independentes</li>
+                    </ul>
+                </div>
+                
+                <div class="card-footer d-flex justify-content-center">
+                    <a href="./software.html" class="btn btn-primary btn-outline-light fw-bolder" id="botao">Ver software</a>
                 </div>
             </div>
 
