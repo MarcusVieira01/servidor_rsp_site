@@ -12,7 +12,6 @@
     <!--Icons install-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-
     <link rel="stylesheet" href="./style.css">
 
     <title>Servidor RSP</title>
@@ -32,7 +31,7 @@
                         <a class="nav-link active" aria-current="page" href="./index.html">Sobre a ideia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./hardware.html">Hadware</a>
+                        <a class="nav-link" href="./hardware.html">Hardware</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./software.html">Software</a>
@@ -47,25 +46,29 @@
 
     <!--PRIMEIRA_VISTA-->
     <main class="text-white pt-4 pe-4 ps-4 pb-2 bg-gradient">
-        <div class="container px-4 text-center w-50 fw-bold">
+        <section class="container px-4 text-center w-50 fw-bold">
             <h1>Você pode ter seu próprio servidor de arquivos</h1>
-        </div>
+        </section>
 
-        <div class="container text-center w-50 p-4">
-            <p>Um servidor que esteja onde você saiba, que apenas você controla o conteúdo, 
+        <section class="container text-center w-50 p-4">
+            <p>
+                Um servidor que esteja onde você saiba, que apenas você controla o conteúdo, 
                 com acesso único ou com usuários que você cadastrar, de tamanho físico menor 
-                que um codificador de TV a cabo e consumo menor que 60W.h.</p>
-        </div>
+                que um codificador de TV a cabo e consumo menor que 60W.h.
+            </p>
+        </section>
 
         <!--CARDS-->
-        <section class="d-flex justify-content-center gap-2" id="conteudo">
+        <section class="d-flex justify-content-center gap-4" id="conteudo">
+            <!--Card Hardware-->
             <div class="card col-4 bg-gradient w-50 rounded-5">
                 <div class="card-header text-center fw-bolder fs-5">
                     Hardware simples e robusto
                 </div>
 
+                <!--Texto do card Hardware-->
                 <div class="card-body">
-                    <ul class="list-unstyled text-left">
+                    <ul class="list-unstyled text-center">
                         <li><i class="bi bi-ticket-detailed px-1"></i>Usa Raspberry Pi 3B Quadcore 1GB RAM</li>
                         <li><i class="bi bi-ticket-detailed px-1"></i>Armazenamento de até 4TB via HDD/SSD (SupTronix X820)</li>
                         <li><i class="bi bi-ticket-detailed px-1"></i>Placa de potência P4/USB-C dedicada (SupTronix X735)</li>
@@ -76,17 +79,19 @@
                 </div>
                 
                 <div class="card-footer d-flex justify-content-center">
-                    <a href="./hardware.html" class="btn btn-primary btn-outline-light fw-bolder" id="botao">Ver hardware</a>
+                    <a href="./hardware.html" class="btn btn-primary btn-outline-light fw-bolder" id="botao">Ver hardware completo</a>
                 </div>
             </div>
-
+            
+            <!--Card Software-->
             <div class="card col-4 bg-gradient w-50 rounded-5">
                 <div class="card-header text-center fw-bolder fs-5">
                     Software escalável e privado
                 </div>
 
+                <!--Texto do card Software-->
                 <div class="card-body">
-                    <ul class="list-unstyled text-left">
+                    <ul class="list-unstyled text-center">
                         <li><i class="bi bi-ticket-detailed px-1"></i>SO Linux Raspbian baseado em Debian, server ou desktop</li>
                         <li><i class="bi bi-ticket-detailed px-1"></i>Privacidade total, acessos controlados por você</li>
                         <li><i class="bi bi-ticket-detailed px-1"></i>Acesso via VPN de sua propriedade, sem servidores externos</li>
@@ -97,24 +102,26 @@
                 </div>
                 
                 <div class="card-footer d-flex justify-content-center">
-                    <a href="./software.html" class="btn btn-primary btn-outline-light fw-bolder" id="botao">Ver software</a>
+                    <a href="./software.html" class="btn btn-primary btn-outline-light fw-bolder" id="botao">Ver software completo</a>
                 </div>
             </div>
-
         </section>
 
-    </main>
-
-    <!--RODAPÉ-->
-    <footer class="text-center text-white">
-        <div class="container-fluid d-flex justify-content-center">
-            <p class="m-2 text-center text-white">Página desenvolvida por <b>2MV</b> com BootStrap e VSCode.</p>
-            <a href="https://github.com/MarcusVieira01"></a>
-            <img class="img-thumbnail m-1" src="./img/git_logo.png" alt="gitHub_logo" height="40" width="40">
-        </div>
-    </footer>
-    
+    </main>    
 </body>
+
+<!--RODAPÉ-->
+<footer class="text-center text-white">
+    <div class="container-fluid d-flex justify-content-center">
+        <p class="m-2 text-center text-white">
+            Página desenvolvida por 
+            <a href="https://github.com/MarcusVieira01">2MV</a>
+            com BootStrap e VSCode.
+        </p>
+        
+        <img class="img-thumbnail m-1" src="./img/git_logo.png" alt="gitHub_logo" height="40" width="40">
+    </div>
+</footer>
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
