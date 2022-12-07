@@ -9,13 +9,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+    <!--Icons install-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./style.css">
+
     <title>Servidor RSP - Hardware</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark navbar-expand" style="background-color: #001f37;">
+    <!--NAVBAR-->
+    <nav class="navbar navbar-dark navbar-expand">
         <div class="container-fluid ">
-            <a class="navbar-brand fs-1 fw-bolder mt-2">
-                <img src="./img/2MV - Logo Grande.png" class=" mb-2 me-4" alt="Bootstrap" width="70" height="70">Servidor RSP
+            <a class="navbar-brand fs-3 fw-bolder m-0">
+                <img src="./img/2MV - Logo Grande.png" class="me-3" alt="logo2mv" width="50" height="50">Servidor RSP
             </a>
 
             <div class="expand navbar-expand" id="navbarNav">
@@ -24,7 +30,7 @@
                         <a class="nav-link" aria-current="page" href="./index.html">Sobre a ideia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./hardware.html">Hadware</a>
+                        <a class="nav-link active" href="./hardware.html">Hardware</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./software.html">Software</a>
@@ -37,7 +43,150 @@
         </div>
     </nav>
 
-    <h1>HARDWARE</h1>
+    <main class="text-white pt-4 pe-4 ps-4 pb-2 bg-gradient">
+        <section class="container px-4 text-center w-75 fw-bold">
+            <h1>Seu hardware simples, de fácil reposição e customizável</h1>
+        </section>
+
+        <!--Título padrão-->
+        <section class="container text-center w-50 p-4 fs-5">
+            <p>
+                O hardware que compõe o Servidor RSP possui fácil acesso, baixo custo de reposição e com alta possibilidade de customização dos módulos 
+            </p>
+        </section>
+
+        <!--CARDS implementação padrão-->
+        <section class="d-flex justify-content-center gap-2" id="conteudo">
+            <!--Card Padrão-->
+            <div class="card col-6 bg-gradient rounded-5">
+                <div class="card-header text-center fw-bolder fs-3">
+                   Implementação padrão com Raspberry 3B
+                </div>
+
+                <!--Texto do card padrão-->
+                <div class="card-body">
+                    <ul class="list-unstyled text-left fs-6">
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Raspberry 3B com WiFi de 2.4GHz classe N e Bluetooth 4.1 BLE integrado</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Processador Broadcom BCM2837 64Bit Quadcore de 1,2GHz e 1GB de RAM</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Armazenamento do SO em cartão Micro SD Sandisk Ultra Classe 10 de 16 GB</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Placa controladora de potência SupTronics X735 V3.0 com entrada P4 e USB-C</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Botão de pulso para ativação, reboot e auto-off via software e placa X735 V3.0</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Placa controladora de armazenamento SupTronics X820 V3.0 para um driver 2.5" SATA</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Armazenamento de dados via HDD 2,5" SATA Toshiba 1TB</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Tela de monitoramento OLED de 0,96" 128x64px bicolor e comunicação I²C</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Case customizado com fabricação via Impressão 3D, tecnologia FDM e PLA como material</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Chave DIP 2 vias para habilitação do Auto-On e Controle PWM do cooler</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Exaustor 3010 5V com acionamento direto e imediato na placa controladora de potência</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!--CARROUSSEL DE FOTOS Padrão-->
+            <section id="carrouselHardware" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-inner d-flex ms-5 ps-5 pt-5">
+                    <div class="carousel-item active">
+                        <img src="./img/srv-fechado_outro_lado.jpg" class="d-block w-75" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./img/srv_aberto_lado.jpg" class="d-block w-75" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./img/srv_fechado_lado.jpg" class="d-block w-75" alt="...">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrouselHardware" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carrouselHardware" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden-focusable">Next</span>
+                </button>
+                
+            </section>
+
+        </section>
+
+        <!--Título customizável-->
+        <section class="container text-center w-75 pb-3 pt-4 px-4 fw-bold">
+            <h1>Implementação customizável</h1>
+        </section>
+
+        <!--CARDS Customização-->
+        <section class="d-flex justify-content-center gap-2 mb-5" id="conteudo">
+            <!--Card UPS-->
+            <div class="card col-4 bg-gradient rounded-5">
+                <div class="card-header text-center fw-bolder fs-5">
+                    Implementação de UPS dedicada
+                </div>
+
+                <!--Texto do card UPS-->
+                <div class="card-body">
+                    <ul class="list-unstyled text-left">
+                        <li><i class="bi bi-ticket-detailed px-1"></i>UPS dedicada à operação do servidor via módulo</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Contíngência N+1 intrínseca ao servidor</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Customização do tempo de contingência (baterias)</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Gerenciamento via hardware dedicado e independente</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Card Armazenamento-->
+            <div class="card col-4 bg-gradient rounded-5">
+                <div class="card-header text-center fw-bolder fs-5">
+                    Armazenamento flexível e customizável
+                </div>
+
+                <!--Texto do card Armazenamento-->
+                <div class="card-body">
+                    <ul class="list-unstyled text-left">
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de SSD 2.5" SATA ou M.2 de até 4 TB cada</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de HDD 2.5" SATA de até 4TB cada</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de múltiplos drives alterando a placa de controle</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de cartão MicroSD para o Sistema</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <!--Card Placa mãe-->
+            <div class="card col-4 bg-gradient rounded-5">
+                <div class="card-header text-center fw-bolder fs-5">
+                    Placa mãe intercambeável
+                </div>
+                
+                <!--Texto do card Placa mãe-->
+                <div class="card-body">
+                    <ul class="list-unstyled text-left">
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de Raspberry Pi 3B ou 4B (melhor otimização)</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de Orange Pi PC, PC 2e, PC Plus ou 4B</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de Banana Pi BPI-M6, M64 ou M5 (uso de dongle WiFi)</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Flexibilidade de aplicação elevada</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+  
+        <hr>      
+    </main>
+
+<!--RODAPÉ-->
+<footer class="text-center text-white">
+    <div class="container-fluid d-flex justify-content-center">
+        <p class="m-2 text-center text-white">
+            Página desenvolvida por 
+            <a href="https://github.com/MarcusVieira01">2MV</a>
+            com BootStrap e VSCode.
+        </p>
+                
+        <img class="img-thumbnail m-1" src="./img/git_logo.png" alt="gitHub_logo" height="40" width="40">
+    </div>
+</footer>
+    
 
 </body>
 <!-- JavaScript Bundle with Popper -->
