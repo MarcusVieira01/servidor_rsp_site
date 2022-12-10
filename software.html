@@ -45,13 +45,13 @@
 
     <main class="text-white pt-4 pe-4 ps-4 pb-2 bg-gradient">
         <section class="container px-4 text-center w-75 fw-bold">
-            <h1>Seu hardware simples, de fácil reposição e customizável</h1>
+            <h1>Seu software gerido apenas por você</h1>
         </section>
 
         <!--Título padrão-->
         <section class="container text-center w-50 p-4 fs-5">
             <p>
-                O hardware que compõe o Servidor RSP possui fácil acesso, baixo custo de reposição e com alta possibilidade de customização dos módulos 
+                O software é acessado apenas por você e configurado apenas por você. Criação de usuários, manipulação de arquivos e acessos exclusivos.
             </p>
         </section>
 
@@ -60,29 +60,29 @@
             <!--Card Padrão-->
             <div class="card col-6 bg-gradient rounded-5">
                 <div class="card-header text-center fw-bolder fs-3">
-                   Implementação padrão com Raspberry 3B
+                   Implementação padrão com Raspbian
                 </div>
 
                 <!--Texto do card padrão-->
                 <div class="card-body">
                     <ul class="list-unstyled text-left fs-6">
-                        <li><i class="bi bi-ticket-detailed p-3"></i>Raspberry 3B com WiFi de 2.4GHz classe N e Bluetooth 4.1 BLE integrado</li>
-                        <li><i class="bi bi-ticket-detailed p-3"></i>Processador Broadcom BCM2837 64Bit Quadcore de 1,2GHz e 1GB de RAM</li>
-                        <li><i class="bi bi-ticket-detailed p-3"></i>Armazenamento do SO em cartão Micro SD Sandisk Ultra Classe 10 de 16 GB</li>
-                        <li><i class="bi bi-ticket-detailed p-3"></i>Placa controladora de potência SupTronics X735 V3.0 com entrada P4 e USB-C</li>
-                        <li><i class="bi bi-ticket-detailed p-3"></i>Botão de pulso para ativação, reboot e auto-off via software e placa X735 V3.0</li>
-                        <li><i class="bi bi-ticket-detailed p-3"></i>Placa controladora de armazenamento SupTronics X820 V3.0 para um driver 2.5" SATA</li>
-                        <li><i class="bi bi-ticket-detailed p-3"></i>Armazenamento de dados via HDD 2,5" SATA Toshiba 1TB</li>
-                        <li><i class="bi bi-ticket-detailed p-3"></i>Tela de monitoramento OLED de 0,96" 128x64px bicolor e comunicação I²C</li>
-                        <li><i class="bi bi-ticket-detailed p-3"></i>Case customizado com fabricação via Impressão 3D, tecnologia FDM e PLA como material</li>
-                        <li><i class="bi bi-ticket-detailed p-3"></i>Chave DIP 2 vias para habilitação do Auto-On e Controle PWM do cooler</li>
-                        <li><i class="bi bi-ticket-detailed p-3"></i>Exaustor 3010 5V com acionamento direto e imediato na placa controladora de potência</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>uso do Respbian release 20220922 Full</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Linux baseado em Debian 11 BullsEye, atualizável e de LTS</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Implementado com Desktop e Terminal, podendo escolher qual melhor interface</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Serviço SMB (SAMBA) de compartilhamento de arquivos, customizável e configurável</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Uso de VPN PiVPN, VPN dedicada para o servidor, com criptografia de 32 até 128bits</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Uso de DuckDNS para acesso DNS dinâmico, com atualização de IP a cada 5 minutos</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Uso de OpenVPN para interace de acesso externo, configurado para os clients desejados</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Possui IDE Thonny para Pytohn, BlueJ para Java e possibilidade de uso de VSCode</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Script próprio em Python de monitoramento local via tela OLED 0.96" 128x64</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Implementação de monitoramento remoto via RPiMonitor, com acesso externo (VPN)</li>
+                        <li><i class="bi bi-ticket-detailed p-3"></i>Possibilidade de implementação de servidor Git para versionamento de codigos</li>
                     </ul>
                 </div>
             </div>
             
             <!--CARROUSSEL DE FOTOS Padrão-->
-            <section id="carrouselHardware" class="carousel slide" data-bs-ride="true">
+            <section id="carrousselSoftware" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-inner d-flex ms-5 ps-5 pt-5">
                     <div class="carousel-item active">
                         <img src="./img/srv-fechado_outro_lado.jpg" class="d-block w-75" alt="...">
@@ -97,12 +97,12 @@
                     </div>
                 </div>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#carrouselHardware" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrousselSoftware" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
 
-                <button class="carousel-control-next" type="button" data-bs-target="#carrouselHardware" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carrousselSoftware" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden-focusable">Next</span>
                 </button>
@@ -111,64 +111,47 @@
 
         </section>
 
-        <!--Título customizável-->
+        <!--Título Segurança-->
         <section class="container text-center w-75 pb-3 pt-4 px-4 fw-bold">
-            <h1>Implementação customizável</h1>
+            <h1>Níveis de segurança elevados</h1>
         </section>
 
-        <!--CARDS Customização-->
+        <!--CARDS Segurança-->
         <section class="d-flex justify-content-center gap-2 mb-5" id="conteudo">
-            <!--Card UPS-->
-            <div class="card col-4 bg-gradient rounded-5">
+            <!--Card VPN-->
+            <div class="card col-6 bg-gradient rounded-5">
                 <div class="card-header text-center fw-bolder fs-5">
-                    Implementação de UPS dedicada
+                    Uso de VPN
                 </div>
 
                 <!--Texto do card UPS-->
                 <div class="card-body">
                     <ul class="list-unstyled text-left">
-                        <li><i class="bi bi-ticket-detailed px-1"></i>UPS dedicada à operação do servidor via módulo</li>
-                        <li><i class="bi bi-ticket-detailed px-1"></i>Contíngência N+1 intrínseca ao servidor</li>
-                        <li><i class="bi bi-ticket-detailed px-1"></i>Customização do tempo de contingência (baterias)</li>
-                        <li><i class="bi bi-ticket-detailed px-1"></i>Gerenciamento via hardware dedicado e independente</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de PiVPN para acesso externo dedicado e não acessível diretamente</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Criptografia customizável de 32 até 128 bits. Você escolhe o nível</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Configuração de client dedicado para cada usuário, tornando cada acesso único</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Acesso de qualquer local do mundo ou Marte (DeepSpace Network Nasa - PIADA!)</li>
                     </ul>
                 </div>
             </div>
 
             <!--Card Armazenamento-->
-            <div class="card col-4 bg-gradient rounded-5">
+            <div class="card col-6 bg-gradient rounded-5">
                 <div class="card-header text-center fw-bolder fs-5">
-                    Armazenamento flexível e customizável
+                    Acesso a compartilhamento SMB via usuários
                 </div>
 
                 <!--Texto do card Armazenamento-->
                 <div class="card-body">
                     <ul class="list-unstyled text-left">
-                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de SSD 2.5" SATA ou M.2 de até 4 TB cada</li>
-                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de HDD 2.5" SATA de até 4TB cada</li>
-                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de múltiplos drives alterando a placa de controle</li>
-                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de cartão MicroSD para o Sistema</li>
-                    </ul>
-                </div>
-                
-            </div>
-            
-            <!--Card Placa mãe-->
-            <div class="card col-4 bg-gradient rounded-5">
-                <div class="card-header text-center fw-bolder fs-5">
-                    Placa mãe intercambeável
-                </div>
-                
-                <!--Texto do card Placa mãe-->
-                <div class="card-body">
-                    <ul class="list-unstyled text-left">
-                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de Raspberry Pi 3B ou 4B (melhor otimização)</li>
-                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de Orange Pi PC, PC 2e, PC Plus ou 4B</li>
-                        <li><i class="bi bi-ticket-detailed px-1"></i>Uso de Banana Pi BPI-M6, M64 ou M5 (uso de dongle WiFi)</li>
-                        <li><i class="bi bi-ticket-detailed px-1"></i>Flexibilidade de aplicação elevada</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Cada usuário acessa apenas seu setor de armazenamento, </li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Possibilidade de controle de permissões pelo SO e SMB</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Não visualização de arquivos de sistema ou de outras contas</li>
+                        <li><i class="bi bi-ticket-detailed px-1"></i>Servidor sempre estará sempre em local que você conheça, dentro de sua casa ou escritório</li>
                     </ul>
                 </div>
             </div>
+
         </section>
   
         <hr>      
